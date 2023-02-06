@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_flutter_app/screen/column_row_widget.dart';
 import 'package:my_flutter_app/screen/grade.dart';
 import 'package:my_flutter_app/screen/my_app.dart';
 import 'package:my_flutter_app/screen/snack_bar.dart';
@@ -36,21 +37,28 @@ class Home extends StatelessWidget {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const MyPage()));
                 },
-                child: const Text("/my-page"),
+                child: const Text("MyPage"),
               ),
               TextButton(
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Grade()));
                 },
-                child: const Text("/grade"),
+                child: const Text("/Grade"),
               ),
               TextButton(
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const MySnackBar()));
                 },
-                child: const Text("/snack-bar"),
+                child: const Text("/MySnackBar"),
+              ),
+              TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const ColumnRowWidget()));
+                },
+                child: const Text("/ColumnRowWidget"),
               ),
             ],
           ),
