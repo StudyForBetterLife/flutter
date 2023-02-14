@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:my_flutter_app/screen/column_row_widget.dart';
-import 'package:my_flutter_app/screen/grade.dart';
-import 'package:my_flutter_app/screen/my_app.dart';
-import 'package:my_flutter_app/screen/my_navigator.dart';
-import 'package:my_flutter_app/screen/push_named.dart';
-import 'package:my_flutter_app/screen/snack_bar.dart';
+import 'package:my_flutter_app/v1/screen/column_row_widget.dart';
+import 'package:my_flutter_app/v1/screen/grade.dart';
+import 'package:my_flutter_app/v1/screen/my_app.dart';
+import 'package:my_flutter_app/v1/screen/my_navigator.dart';
+import 'package:my_flutter_app/v1/screen/push_named.dart';
+import 'package:my_flutter_app/v1/screen/snack_bar.dart';
 
 void main() {
   runApp(const MyApp());
